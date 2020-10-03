@@ -24,6 +24,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+#HID:  gem 'pg' # HID on 10/3/2020
   gem 'rails_12factor'
 end

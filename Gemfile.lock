@@ -95,7 +95,6 @@ GEM
     overcommit (0.57.0)
       childprocess (>= 0.6.3, < 5)
       iniparse (~> 1.4)
-    pg (1.2.3)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -184,7 +183,6 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   overcommit
-  pg
   rails (= 6.0.3.3)
   rails-controller-testing
   rails-html-sanitizer
