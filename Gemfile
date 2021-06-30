@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '6.1.4'
 
 gem 'sassc-rails'
-gem 'uglifier'
+gem 'terser'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
