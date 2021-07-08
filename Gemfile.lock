@@ -138,7 +138,7 @@ GEM
       method_source
       rake (>= 0.13)
       thor (~> 1.0)
-    rake (13.0.4)
+    rake (13.0.5)
     rdoc (6.3.2)
     rexml (3.2.5)
     sassc (2.4.0)
@@ -202,4 +202,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.2.21
+   2.2.22
