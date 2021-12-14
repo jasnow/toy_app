@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.4.1'
+gem 'rails', '6.1.4.2'
 
 gem 'sassc-rails'
 gem 'terser'
