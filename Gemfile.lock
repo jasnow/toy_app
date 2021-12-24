@@ -100,6 +100,8 @@ GEM
       childprocess (>= 0.6.3, < 5)
       iniparse (~> 1.4)
       rexml (~> 3.2)
+    psych (4.0.3)
+      stringio
     racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -140,7 +142,8 @@ GEM
       rake (>= 0.13)
       thor (~> 1.0)
     rake (13.0.6)
-    rdoc (6.3.3)
+    rdoc (6.4.0)
+      psych (>= 4.0.0)
     rexml (3.2.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -161,6 +164,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    stringio (3.0.1)
     terser (1.1.8)
       execjs (>= 0.3.0, < 3)
     thor (1.1.0)
@@ -203,4 +207,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.3.1
+   2.3.2
