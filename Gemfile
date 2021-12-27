@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.4.3'
+#gem 'rails', '7.0.0'
+gem "rails", github: "rails/rails", branch: "7-0-stable"
 
 gem 'sassc-rails'
 gem 'terser'
