@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 class MicropostsControllerTest < ActionController::TestCase
   setup do
@@ -17,31 +17,31 @@ class MicropostsControllerTest < ActionController::TestCase
   end
 
   test "should create micropost" do
-    assert_difference('Micropost.count') do
-      post :create, params: { micropost: { content: @micropost.content, user_id: @micropost.user_id } }
+    assert_difference("Micropost.count") do
+      post :create, params: {micropost: {content: @micropost.content, user_id: @micropost.user_id}}
     end
 
     assert_redirected_to micropost_path(assigns(:micropost))
   end
 
   test "should show micropost" do
-    get :show, params: { id: @micropost }
+    get :show, params: {id: @micropost}
     assert_response :success
   end
 
   test "should get edit" do
-    get :edit, params: { id: @micropost }
+    get :edit, params: {id: @micropost}
     assert_response :success
   end
 
   test "should update micropost" do
-    patch :update, params: { id: @micropost, micropost: { content: @micropost.content, user_id: @micropost.user_id } }
+    patch :update, params: {id: @micropost, micropost: {content: @micropost.content, user_id: @micropost.user_id}}
     assert_redirected_to micropost_path(assigns(:micropost))
   end
 
   test "should destroy micropost" do
-    assert_difference('Micropost.count', -1) do
-      delete :destroy, params: { id: @micropost }
+    assert_difference("Micropost.count", -1) do
+      delete :destroy, params: {id: @micropost}
     end
 
     assert_redirected_to microposts_path
