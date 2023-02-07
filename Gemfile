@@ -22,6 +22,8 @@ group :development, :test do
   gem "rails-controller-testing"
   gem "brakeman"
   gem "standard"
+  gem "ruby_audit"
+  gem "spektr"
 end
 
 group :production do
