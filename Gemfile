@@ -10,20 +10,21 @@ gem "jbuilder"
 gem "rails-html-sanitizer"
 gem "sdoc", group: :doc
 gem "overcommit"
+gem "webrick"
 
 group :development do
   gem "web-console"
+  gem "debug"
+  gem "ruby_audit"
+  gem "spektr"
 end
 
 group :development, :test do
   gem "sqlite3"
-  gem "debug"
   gem "spring"
   gem "rails-controller-testing"
   gem "brakeman"
   gem "standard"
-  gem "ruby_audit"
-  gem "spektr"
 end
 
 group :production do
