@@ -1,0 +1,16 @@
+image: ruby:3.2.1
+
+pipelines:
+  default:
+    - parallel:
+
+      - step:
+          name: Test
+          script:
+            - bundle install
+            - bundle exec rake
+
+      - step:
+          name: Lint code
+          script:
+            - ruby -wc **/*.rb
