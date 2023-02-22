@@ -7,6 +7,7 @@ gem "terser"
 gem "jquery-rails"
 gem "turbolinks"
 gem "jbuilder"
+gem 'mini_racer', platform: :ruby
 gem "rails-html-sanitizer"
 gem "sdoc", group: :doc
 gem "overcommit"
