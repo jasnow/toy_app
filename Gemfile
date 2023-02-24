@@ -15,7 +15,6 @@ gem "webrick"
 
 group :development do
   gem "web-console"
-  gem "debug"
   gem "ruby_audit"
   gem "spektr"
 end
