@@ -31,3 +31,5 @@ group :production do
   # HID:  gem 'pg' # HID on 10/3/2020
   gem "rails_12factor"
 end
+
+gem 'simplecov', require: false, group: :test
