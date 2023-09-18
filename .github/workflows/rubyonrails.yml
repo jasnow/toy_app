@@ -12,7 +12,6 @@ jobs:
 
     env:
       RAILS_ENV: test
-      BUNDLE_FORCE_RUBY_PLATFORM: "true"
 
     steps:
       - name:
